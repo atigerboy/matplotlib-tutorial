@@ -32,5 +32,5 @@ ani = animation.ArtistAnimation(fig, ims, interval=50, blit=True,
                                 repeat_delay=1000)
 
 # ani.save('dynamic_images.mp4')
-ani.save('./DifferentiationApp/dm2.gif', writer='imagemagick')
-#plt.show()
+#ani.save('./DifferentiationApp/dm2.gif', writer='imagemagick')
+plt.show()
